@@ -5,8 +5,8 @@
 
 A React template with TypeScript and developer tooling.
 
-- React with TypeScript with strong types and static code analysis to improve the developer experience and shorten feedback loops.
-- Tailwind to increase styling velocity in a way that scales.
+- React with TypeScript with strong types and static code analysis to improve developer experience and shorten feedback loops.
+- Tailwind to increase styling velocity and manage CSS at scale.
 - Unit and integration tests with coverage reports and configurable thresholds via Jest to prevent regressions and increase confidence, with React Testing Library to safeguard against testing implementation details.
 - Automated integration tests via Cypress to prevent regressions and increase confidence, with Cypress Testing Library to safeguard against testing implementation details.
 - Linting for JavaScript and TypeScript files via ESLint to find and fix problems quickly, with static code analysis and configurable rules.
