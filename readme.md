@@ -5,16 +5,16 @@
 
 A React template with TypeScript and developer tooling.
 
-- React.
-- TypeScript.
-- Tailwind.
-- Jest.
-- ESLint.
-- LSLint.
-- Prettier.
-- Husky.
-- Continuous Integration.
-- Continuous Deployment (via S3, in my instance to an S3 bucket distributed by CloudFront via Route 53)
+- React with TypeScript with strong types and static code analysis to improve the developer experience and shorten feedback loops.
+- Tailwind to increase styling velocity in a way that scales.
+- Unit and integration tests with coverage reports and configurable thresholds via Jest to prevent regressions and increase confidence, with React Testing Library to safeguard against testing implementation details.
+- Automated integration tests via Cypress to prevent regressions and increase confidence, with Cypress Testing Library to safeguard against testing implementation details.
+- Linting for JavaScript and TypeScript files via ESLint to find and fix problems quickly, with static code analysis and configurable rules.
+- Linting for the filesystem via LSLint to enforce consistency in file and folder names, with configurable rules.
+- Opinionated formatting for an array of file types via Prettier to enforce consistency in code style, with configurable rules.
+- Pre-commit hooks via Husky to automatically enforce standards and shorten feedback loops, with configurable steps.
+- Continuous Integration via GitHub actions with type checking, formatting, linting, testing and more, with configurable steps.
+- Continuous Deployment via GitHub actions to Amazon S3, in my instance to an S3 bucket behind a CloudFront distribution through Route 53.
 
 ---
 
