@@ -1,13 +1,13 @@
 {
   "name": "react-typescript-tooling-automation-template",
   "description": "A React template with TypeScript, developer tooling and automation.",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
     "start": "react-scripts start",
     "typecheck": "tsc",
     "lint": "eslint \"./**/*.{js,jsx,ts,tsx}\"",
-    "lint:fix": "npm run lint -- --fix",
+    "lint:write": "npm run lint -- --fix",
     "lint:ls": "ls-lint",
     "test": "react-scripts test",
     "test:coverage": "react-scripts test --coverage --watchAll",
@@ -20,7 +20,7 @@
   },
   "jest": {
     "collectCoverageFrom": [
-      "./src/**/*.{ts,tsx}"
+      "./src/**/*.{js,jsx,ts,tsx}"
     ],
     "coverageThreshold": {
       "global": {
@@ -44,14 +44,12 @@
     "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.30.6",
     "@typescript-eslint/parser": "^5.30.6",
-    "autoprefixer": "^10.4.7",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jest": "^26.5.3",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.1",
-    "postcss": "^8.4.12",
     "prettier": "^2.7.1",
     "react-scripts": "^5.0.1",
     "tailwindcss": "^3.1.6",
