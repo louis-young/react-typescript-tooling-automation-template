@@ -13,6 +13,7 @@ A React template with TypeScript and developer tooling.
 - Linting for the filesystem via LSLint to enforce consistency in file and folder names, with configurable rules.
 - Opinionated formatting for an array of file types via Prettier to enforce consistency in code style, with configurable rules.
 - Pre-commit hooks via Husky to automatically enforce standards and shorten feedback loops, with configurable steps.
+- Automated dependency updates via Dependabot to keep dependencies secure and up to date, with configurable rules.
 - Continuous Integration via GitHub actions with type checking, formatting, linting, testing and more, with configurable steps.
 - Continuous Deployment via GitHub actions to Amazon S3, in my instance to an S3 bucket behind a CloudFront distribution through Route 53.
 

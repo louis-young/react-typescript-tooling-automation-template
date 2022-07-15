@@ -4,8 +4,6 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    schedule:
-      interval: "weekly"
       time: "07:00"
       timezone: "GB"
     target-branch: "feature/dependency_updates"
