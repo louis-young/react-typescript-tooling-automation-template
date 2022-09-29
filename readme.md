@@ -15,8 +15,6 @@ A React template with TypeScript and developer tooling.
 - Continuous Integration via GitHub actions with type checking, formatting, linting and testing.
 - Continuous Deployment via GitHub actions to Amazon S3, in this example to an S3 bucket distributed by a CloudFront distribution.
 
----
-
 ## Scripts
 
 ### `npm run dev`
