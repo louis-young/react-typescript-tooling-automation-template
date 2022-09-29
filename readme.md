@@ -17,34 +17,34 @@ A React template with TypeScript and developer tooling.
 
 ## Scripts
 
-### `npm run dev`
+`npm run dev`
 
 Runs the application in the development mode.
 
-### `npm run typecheck`
+`npm run typecheck`
 
 Runs the TypeScript compiler and checks for type issues.
 
-### `npm run lint`
+`npm run lint`
 
 Runs the linter to check for code issues.
 
-### `npm run lint:write`
+`npm run lint:write`
 
 Runs the linter and fixes code issues.
 
-### `npm run lint:ls`
+`npm run lint:ls`
 
 Runs the filesystem linter to check for consistency in file and folder names.
 
-### `npm run format`
+`npm run format`
 
 Runs the formatter to check for formatting issues.
 
-### `npm run format:write`
+`npm run format:write`
 
 Runs the formatter and fixes formatting issues.
 
-### `npm run build`
+`npm run build`
 
 Builds the application for using the production environment variables and outputs it to the `dist` folder.
