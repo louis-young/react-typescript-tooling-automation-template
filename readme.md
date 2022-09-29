@@ -47,4 +47,4 @@ Runs the formatter and fixes formatting issues.
 
 `npm run build`
 
-Builds the application for using the production environment variables and outputs it to the `dist` folder.
+Builds the application using the production environment variables and outputs it to the `dist` folder.
