@@ -1,7 +1,8 @@
 {
-  "name": "vite",
-  "private": true,
+  "name": "react-typescript-tooling-automation-template-vite",
+  "description": "A React template with TypeScript, developer tooling and automation.",
   "version": "1.0.0",
+  "private": false,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
