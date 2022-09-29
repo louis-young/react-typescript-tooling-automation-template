@@ -25,5 +25,4 @@ jobs:
           npm run typecheck
           npm run lint
           npm run lint:ls
-          npm run test
           npm run build
