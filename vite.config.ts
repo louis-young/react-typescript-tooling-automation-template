@@ -1,3 +1,5 @@
+/// <reference types="vitest" />
+
 import { defineConfig } from "vite";
 import { checker } from "vite-plugin-checker";
 import react from "@vitejs/plugin-react";
@@ -18,5 +20,10 @@ export default defineConfig({
     host: true,
     open: true,
     port: 3000,
+  },
+  test: {
+    globals: true,
+    environment: "jsdom",
+    setupFiles: ["./src/test/setup.ts"],
   },
 });

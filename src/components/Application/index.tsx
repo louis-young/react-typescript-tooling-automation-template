@@ -1,9 +1,11 @@
+import { NewsletterSubscriptionForm } from "../NewsletterSubscriptionForm";
+
 export const Application = () => {
   return (
-    <main>
-      <h1 className="text-3xl font-bold">
-        {import.meta.env.VITE_APPLICATION_NAME}
-      </h1>
+    <main className="p-6">
+      <div className="max-w-3xl">
+        <NewsletterSubscriptionForm />
+      </div>
     </main>
   );
 };
