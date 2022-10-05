@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Application } from "./components/Application";
-import { Providers } from "./components/Providers";
 import "./index.css";
 
 if (process.env.NODE_ENV === "development") {
@@ -12,8 +11,6 @@ if (process.env.NODE_ENV === "development") {
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <Providers>
-      <Application />
-    </Providers>
+    <Application />
   </React.StrictMode>,
 );
