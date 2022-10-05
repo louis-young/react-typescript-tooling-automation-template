@@ -17,6 +17,6 @@
     "jsx": "react-jsx",
     "useUnknownInCatchVariables": false
   },
-  "include": ["./"],
+  "include": ["./**/*"],
   "references": [{ "path": "tsconfig.node.json" }]
 }
