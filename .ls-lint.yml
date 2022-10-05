@@ -15,3 +15,5 @@ ls:
 ignore:
   - node_modules
   - dist
+  - coverage
+  - public
