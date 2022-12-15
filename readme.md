@@ -17,7 +17,7 @@ A React template with TypeScript and developer tooling.
 
 ## Scripts
 
-`npm run dev`
+`npm run start`
 
 Runs the application in the development mode.
 
