@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "private": false,
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
@@ -41,7 +41,6 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.11",
     "husky": "^8.0.2",
-    "jsdom": "^20.0.3",
     "ls-lint": "^0.1.2",
     "msw": "^0.49.2",
     "postcss": "^8.4.20",
